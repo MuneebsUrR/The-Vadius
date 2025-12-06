@@ -92,19 +92,28 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/images/logo.jpeg",
+        sizes: "32x32",
+        type: "image/jpeg",
       },
       {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
+        url: "/images/logo.jpeg",
+        sizes: "16x16",
+        type: "image/jpeg",
       },
       {
         url: "/icon.svg",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: [
+      {
+        url: "/images/logo.jpeg",
+        sizes: "180x180",
+        type: "image/jpeg",
+      },
+    ],
+    shortcut: "/images/logo.jpeg",
   },
   manifest: "/manifest.json",
 }

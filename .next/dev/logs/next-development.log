@@ -1,26 +1,24 @@
-[00:00:01.966] Server  LOG     
-[00:00:01.966] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:01.966] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:01.967] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:01.967] Server  LOG     
-[00:00:01.967] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:01.967] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:01.967] Server  LOG     
-[00:00:02.094] Server  LOG      ✓ Ready in 1761ms
-[00:00:12.374] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.812] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.469] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:13.469] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:13.469] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765046065052}
-[00:03:08.522] Server  LOG      ✓ Compiled in 220ms
-[00:03:18.873] Server  LOG      ✓ Compiled in 64ms
-[00:10:00.575] Server  LOG      ✓ Compiled in 498ms
-[00:11:28.357] Server  LOG      ✓ Compiled in 230ms
-[00:12:02.433] Server  LOG      ✓ Compiled in 135ms
-[00:16:58.789] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.025] Server  LOG      ✓ Ready in 766ms
+[00:00:19.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.243] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:20.243] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:20.243] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765048619779}
+[00:00:20.651] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.238] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.238] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:21.239] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765048620702}
+[00:00:21.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:22.233] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:22.233] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:22.233] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765048621837}
+[00:00:28.236] Server  LOG      ✓ Compiled in 94ms
+[00:00:32.053] Server  LOG      ✓ Compiled in 70ms
+[00:00:36.910] Server  LOG      ✓ Compiled in 69ms
+[00:00:43.860] Server  LOG      ✓ Compiled in 148ms
+[00:00:47.629] Server  LOG      ✓ Compiled in 123ms
+[00:00:55.762] Server  LOG      ✓ Compiled in 347ms
+[00:01:03.191] Server  LOG      ✓ Compiled in 199ms
+[00:01:26.558] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -50,16 +48,1414 @@ It can also happen if the client has a browser extension installed which messes 
                       <script>
                       <RootLayout>
                         <html lang="en">
+                          <head>
                           <body
                             className="font-sans antialiased"
--                           __processed_b00fecc1-5fdb-48fb-b43a-a961b3203f6e__="true"
 -                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_a9fb88bb-ce30-4945-9931-febb26542f62__="true"
                           >
+                            ...
+                              <Home>
+                                <main className="min-h-scre...">
+                                  <Navigation>
+                                  <Hero>
+                                  <Services>
+                                  <StatsShowcase>
+                                  <HowItWorks>
+                                  <CaseStudies>
+                                  <Testimonials>
+                                    <section className="py-24 px-6...">
+                                      <div
+                                        className="max-w-7xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="mb-16 md:mb-20"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="bg-background border border-border rounded-lg p-8 md:p-10 hover..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <p>
+                                            <div
+                                              className="border-t border-border pt-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="bg-background border border-border rounded-lg p-8 md:p-10 hover..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <p>
+                                            <div
+                                              className="border-t border-border pt-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="bg-background border border-border rounded-lg p-8 md:p-10 hover..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <p>
+                                            <div
+                                              className="border-t border-border pt-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                  <InsightsPreview>
+                                    <section className="py-24 px-6...">
+                                      <div
+                                        className="max-w-7xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 m..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                          ...
+                                        <div
+                                          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <LinkComponent href="#" className="group flex...">
+                                            <a className="group flex..." ref={function} onClick={function onClick} ...>
+                                              <div
+                                                className="flex-grow border-t border-border pt-6 pb-8 hover:border-pri..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 mb-4"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center gap-2 text-primary font-medium mt-6 opaci..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <LinkComponent href="#" className="group flex...">
+                                            <a className="group flex..." ref={function} onClick={function onClick} ...>
+                                              <div
+                                                className="flex-grow border-t border-border pt-6 pb-8 hover:border-pri..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 mb-4"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center gap-2 text-primary font-medium mt-6 opaci..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <LinkComponent href="#" className="group flex...">
+                                            <a className="group flex..." ref={function} onClick={function onClick} ...>
+                                              <div
+                                                className="flex-grow border-t border-border pt-6 pb-8 hover:border-pri..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 mb-4"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center gap-2 text-primary font-medium mt-6 opaci..."
+-                                               bis_skin_checked="1"
+                                              >
+                                  <Features>
+                                    <section className="py-32 px-6...">
+                                      <div
+                                        className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl"
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-500/20 rounded-ful..."
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="max-w-7xl mx-auto relative"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="text-center max-w-3xl mx-auto mb-20"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-back..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          ...
+                                        <div
+                                          className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                  <CTA>
+                                    <section className="py-32 px-6...">
+                                      <div
+                                        className="max-w-5xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="relative rounded-[2.5rem] bg-gradient-to-br from-primary via-emer..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full blu..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative text-center"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <h2>
+                                            <p>
+                                            <div
+                                              className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex flex-col sm:flex-row items-center justify-center gap-6 t..."
+-                                             bis_skin_checked="1"
+                                            >
+                                  <Footer>
+                                    <footer className="bg-foregro...">
+                                      <div
+                                        className="max-w-7xl mx-auto px-6 lg:px-8"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="py-20 grid md:grid-cols-4 gap-12 lg:gap-16"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="md:col-span-2"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                            <h4>
+                                            <div
+                                              className="flex gap-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                        <div
+                                          className="py-8 border-t border-background/10 flex flex-col md:flex-row just..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <p>
+                                          <div
+                                            className="flex gap-6 text-sm"
+-                                           bis_skin_checked="1"
+                                          >
+                            ...
                   ...
 
-[00:16:58.903] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:16:58.903] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:16:58.903] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765047070496}
-[00:17:10.327] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3001/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765047081898}
-[00:17:14.370] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3001/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765047085964}
-[00:17:51.329] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765047122922}
+[00:01:26.559] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:26.559] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:26.559] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765048686280}
+[00:02:11.573] Server  LOG      ✓ Compiled in 212ms
+[00:02:37.441] Server  LOG      ✓ Compiled in 181ms
+[00:02:48.145] Server  LOG      ✓ Compiled in 112ms
+[00:02:51.471] Server  LOG      ✓ Compiled in 95ms
+[00:03:06.869] Server  LOG      ✓ Compiled in 115ms
+[00:03:29.391] Server  LOG      ✓ Compiled in 117ms
+[00:03:41.003] Server  LOG      ✓ Compiled in 318ms
+[00:22:19.172] Server  LOG      ✓ Compiled in 256ms
+[00:23:20.145] Server  LOG      ✓ Compiled in 183ms
+[00:24:44.501] Server  LOG      ✓ Compiled in 159ms
+[00:30:08.230] Server  LOG      ✓ Compiled in 57ms
+[00:30:57.019] Server  LOG      ✓ Compiled in 140ms
+[00:32:13.402] Server  LOG      ✓ Compiled in 158ms
+[00:38:05.618] Server  LOG      ✓ Compiled in 247ms
+[00:38:53.200] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_1f0c39e7-4e82-4aa3-b3d1-ce3ddb1bedb8__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <Home>
+                                <main className="min-h-scre...">
+                                  <Navigation>
+                                  <Hero>
+                                    <section className="jsx-27f576...">
+                                      <div>
+                                      <div>
+                                      <div>
+                                      <div className="jsx-27f576...">
+                                        <div className="jsx-27f576...">
+                                          <div>
+                                          <div className="jsx-27f576...">
+                                            <div className="jsx-27f576...">
+                                              <div className="jsx-27f576...">
+                                                <div>
+                                                <h3>
+                                                <div
+                                                  className="jsx-27f576ef290bbb32 text-2xl sm:text-3xl font-bold text-..."
+-                                                 bis_skin_checked="1"
+                                                >
++                                                 340%
+                                                ...
+                                              <div
+                                                className="jsx-27f576ef290bbb32 rounded-2xl bg-gradient-to-br from-eme..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="jsx-27f576ef290bbb32 flex items-center justify-between mb-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 w-2.5 h-2.5 rounded-full bg-emeral..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                                <div
+                                                  className="jsx-27f576ef290bbb32"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 text-2xl sm:text-3xl font-bold tex..."
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   150+
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 text-xs text-foreground/60"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Projects Delivered
+                                              <div
+                                                className="jsx-27f576ef290bbb32 rounded-2xl bg-gradient-to-br from-tea..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="jsx-27f576ef290bbb32 text-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <Award>
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 text-sm sm:text-base font-bold tex..."
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   ISO Certified
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 text-xs text-foreground/60"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Quality Assured
+                                              <div
+                                                className="jsx-27f576ef290bbb32 rounded-2xl bg-gradient-to-br from-eme..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="jsx-27f576ef290bbb32 flex justify-between items-start mb-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 text-xl sm:text-2xl font-bold text..."
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   98%
+                                                  ...
+                                                <div
+                                                  className="jsx-27f576ef290bbb32 text-xs text-foreground/60 mb-2"
+-                                                 bis_skin_checked="1"
+                                                >
++                                                 Client Satisfaction
+                                                <div
+                                                  className="jsx-27f576ef290bbb32 flex gap-1"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 w-4 h-1 rounded-full bg-emerald-500"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 w-4 h-1 rounded-full bg-emerald-500"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 w-4 h-1 rounded-full bg-emerald-500"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 w-4 h-1 rounded-full bg-emerald-500"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 w-4 h-1 rounded-full bg-emerald-500"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                            <div
+                                              className="jsx-27f576ef290bbb32 hidden lg:block relative min-h-[600px]"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="jsx-27f576ef290bbb32 relative w-full h-full"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="jsx-27f576ef290bbb32 grid grid-cols-6 grid-rows-6 gap-3 s..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    style={{animation:"fadeInUp 0..."}}
+                                                    className="jsx-27f576ef290bbb32 col-span-4 row-span-4 rounded-2xl ..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="jsx-27f576ef290bbb32 relative w-full h-full p-4 sm:p-..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="jsx-27f576ef290bbb32 inline-flex items-center jus..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                        ...
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 flex items-end justify-between"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="jsx-27f576ef290bbb32 flex gap-1.5 sm:gap-2"
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="jsx-27f576ef290bbb32 w-1.5 sm:w-2 h-16 sm:h-20 ..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          <div
+                                                            className="jsx-27f576ef290bbb32 w-1.5 sm:w-2 h-20 sm:h-28 ..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          <div
+                                                            className="jsx-27f576ef290bbb32 w-1.5 sm:w-2 h-12 sm:h-16 ..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          <div
+                                                            className="jsx-27f576ef290bbb32 w-1.5 sm:w-2 h-16 sm:h-24 ..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                        <div
+                                                          className="jsx-27f576ef290bbb32 text-xl sm:text-2xl md:text-..."
+-                                                         bis_skin_checked="1"
+                                                        >
++                                                         340%
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 absolute inset-0 bg-gradient-t..."
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                  <div
+                                                    style={{animation:"fadeInUp 0..."}}
+                                                    className="jsx-27f576ef290bbb32 col-span-2 row-span-2 rounded-xl s..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="jsx-27f576ef290bbb32 flex items-center justify-betwee..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 w-2 h-2 sm:w-3 sm:h-3 rounded-..."
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                      ...
+                                                    <div
+                                                      className="jsx-27f576ef290bbb32"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 text-xl sm:text-2xl md:text-3x..."
+-                                                       bis_skin_checked="1"
+                                                      >
++                                                       150+
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 text-[10px] sm:text-xs text-fo..."
+-                                                       bis_skin_checked="1"
+                                                      >
++                                                       Projects Delivered
+                                                  <div
+                                                    style={{animation:"fadeInUp 0..."}}
+                                                    className="jsx-27f576ef290bbb32 col-span-2 row-span-2 rounded-xl s..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="jsx-27f576ef290bbb32 text-center"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 mb-2 sm:mb-3 flex justify-center"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 text-sm sm:text-base md:text-x..."
+-                                                       bis_skin_checked="1"
+                                                      >
++                                                       ISO Certified
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 text-[10px] sm:text-xs text-fo..."
+-                                                       bis_skin_checked="1"
+                                                      >
++                                                       Quality Assured
+                                                  <div
+                                                    style={{animation:"fadeInUp 0..."}}
+                                                    className="jsx-27f576ef290bbb32 col-span-2 row-span-2 rounded-xl s..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="jsx-27f576ef290bbb32 text-center"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 text-2xl sm:text-3xl md:text-4..."
+-                                                       bis_skin_checked="1"
+                                                      >
++                                                       ⚡
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 text-xs sm:text-sm font-semibo..."
+-                                                       bis_skin_checked="1"
+                                                      >
++                                                       Real-time Updates
+                                                  <div
+                                                    style={{animation:"fadeInUp 0..."}}
+                                                    className="jsx-27f576ef290bbb32 col-span-2 row-span-2 rounded-xl s..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="jsx-27f576ef290bbb32 relative w-full h-full p-3 sm:p-..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32 flex justify-between items-start"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="jsx-27f576ef290bbb32 text-base sm:text-lg font-bo..."
+-                                                         bis_skin_checked="1"
+                                                        >
++                                                         98%
+                                                        ...
+                                                      <div
+                                                        className="jsx-27f576ef290bbb32"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="jsx-27f576ef290bbb32 text-[10px] sm:text-xs text-..."
+-                                                         bis_skin_checked="1"
+                                                        >
++                                                         Client Satisfaction
+                                                        <div
+                                                          className="jsx-27f576ef290bbb32 flex gap-0.5 sm:gap-1"
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="jsx-27f576ef290bbb32 w-3 h-0.5 sm:w-4 sm:h-1 md..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          <div
+                                                            className="jsx-27f576ef290bbb32 w-3 h-0.5 sm:w-4 sm:h-1 md..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          <div
+                                                            className="jsx-27f576ef290bbb32 w-3 h-0.5 sm:w-4 sm:h-1 md..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          <div
+                                                            className="jsx-27f576ef290bbb32 w-3 h-0.5 sm:w-4 sm:h-1 md..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          <div
+                                                            className="jsx-27f576ef290bbb32 w-3 h-0.5 sm:w-4 sm:h-1 md..."
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                  <div
+                                                    className="jsx-27f576ef290bbb32 absolute inset-0 pointer-events-no..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="jsx-27f576ef290bbb32 absolute top-[10%] right-[15%] w..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <div
+                                                      className="jsx-27f576ef290bbb32 absolute top-[60%] left-[20%] w-..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <div
+                                                      className="jsx-27f576ef290bbb32 absolute bottom-[20%] right-[25%..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                        <div
+                                          className="jsx-27f576ef290bbb32 mt-12 sm:mt-16 md:mt-20 pt-8 sm:pt-10 md:pt-..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="jsx-27f576ef290bbb32 grid grid-cols-2 md:grid-cols-4 gap-6 sm:g..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="jsx-27f576ef290bbb32 text-center"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="jsx-27f576ef290bbb32 text-2xl sm:text-3xl md:text-4xl font-..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               150+
+                                              <div
+                                                className="jsx-27f576ef290bbb32 text-xs sm:text-sm text-foreground/60"
+-                                               bis_skin_checked="1"
+                                              >
++                                               Brands Transformed
+                                            <div
+                                              className="jsx-27f576ef290bbb32 text-center"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="jsx-27f576ef290bbb32 text-2xl sm:text-3xl md:text-4xl font-..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               98%
+                                              <div
+                                                className="jsx-27f576ef290bbb32 text-xs sm:text-sm text-foreground/60"
+-                                               bis_skin_checked="1"
+                                              >
++                                               Client Satisfaction
+                                            <div
+                                              className="jsx-27f576ef290bbb32 text-center"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="jsx-27f576ef290bbb32 text-2xl sm:text-3xl md:text-4xl font-..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               340%
+                                              <div
+                                                className="jsx-27f576ef290bbb32 text-xs sm:text-sm text-foreground/60"
+-                                               bis_skin_checked="1"
+                                              >
++                                               Average ROI
+                                            <div
+                                              className="jsx-27f576ef290bbb32 text-center"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="jsx-27f576ef290bbb32 text-2xl sm:text-3xl md:text-4xl font-..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               24/7
+                                              <div
+                                                className="jsx-27f576ef290bbb32 text-xs sm:text-sm text-foreground/60"
+-                                               bis_skin_checked="1"
+                                              >
++                                               Support Available
+                                      <div
+                                        className="jsx-27f576ef290bbb32 hidden md:flex absolute bottom-8 left-1/2 -tra..."
+-                                       bis_skin_checked="1"
+                                      >
+                                        <span>
+                                        <div
+                                          className="jsx-27f576ef290bbb32 w-px h-8 bg-gradient-to-b from-primary/60 to..."
+-                                         bis_skin_checked="1"
+                                        >
+                                      ...
+                                  <Services>
+                                    <section id="services" className="py-32 px-6...">
+                                      <div
+                                        className="max-w-7xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 m..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="max-w-2xl"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-pr..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          ...
+                                        <div
+                                          className="grid md:grid-cols-2 gap-6 lg:gap-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="group relative bg-card border border-border rounded-3xl p-8 lg:..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-teal-..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="relative"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="inline-flex items-center justify-center w-14 h-14 rounded-2..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <h3>
+                                              <p>
+                                              <div
+                                                className="flex flex-wrap gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                          <div
+                                            className="group relative bg-card border border-border rounded-3xl p-8 lg:..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-emera..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="relative"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="inline-flex items-center justify-center w-14 h-14 rounded-2..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <h3>
+                                              <p>
+                                              <div
+                                                className="flex flex-wrap gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                          <div
+                                            className="group relative bg-card border border-border rounded-3xl p-8 lg:..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-green..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="relative"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="inline-flex items-center justify-center w-14 h-14 rounded-2..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <h3>
+                                              <p>
+                                              <div
+                                                className="flex flex-wrap gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                          <div
+                                            className="group relative bg-card border border-border rounded-3xl p-8 lg:..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-teal-..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="relative"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="inline-flex items-center justify-center w-14 h-14 rounded-2..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <h3>
+                                              <p>
+                                              <div
+                                                className="flex flex-wrap gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                  <StatsShowcase>
+                                    <section className="py-24 px-6...">
+                                      <div
+                                        className="max-w-7xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="mb-16 md:mb-24"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="group border-t border-border pt-8 md:pt-12 hover:border-primary..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="group border-t border-border pt-8 md:pt-12 hover:border-primary..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="group border-t border-border pt-8 md:pt-12 hover:border-primary..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="group border-t border-border pt-8 md:pt-12 hover:border-primary..."
+-                                           bis_skin_checked="1"
+                                          >
+                                  <HowItWorks>
+                                    <section className="py-24 px-6...">
+                                      <div
+                                        className="max-w-7xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="text-center mb-20 md:mb-28"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="space-y-12 md:space-y-16"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="flex gap-8 md:gap-12 items-start group"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex-shrink-0"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                            <div
+                                              className="flex-grow pt-2"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <h3>
+                                              <p>
+                                              <div
+                                                className="h-12 md:h-16 flex justify-center mt-8 md:mt-12"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-0.5 h-full bg-gradient-to-b from-primary to-transparent..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                          <div
+                                            className="flex gap-8 md:gap-12 items-start group"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex-shrink-0"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                            <div
+                                              className="flex-grow pt-2"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <h3>
+                                              <p>
+                                              <div
+                                                className="h-12 md:h-16 flex justify-center mt-8 md:mt-12"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-0.5 h-full bg-gradient-to-b from-primary to-transparent..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                          <div
+                                            className="flex gap-8 md:gap-12 items-start group"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex-shrink-0"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                            <div
+                                              className="flex-grow pt-2"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <h3>
+                                              <p>
+                                              <div
+                                                className="h-12 md:h-16 flex justify-center mt-8 md:mt-12"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-0.5 h-full bg-gradient-to-b from-primary to-transparent..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                          <div
+                                            className="flex gap-8 md:gap-12 items-start group"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex-shrink-0"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                            <div
+                                              className="flex-grow pt-2"
+-                                             bis_skin_checked="1"
+                                            >
+                                  <CaseStudies>
+                                    <section className="py-32 px-6...">
+                                      <div
+                                        className="max-w-7xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 m..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="max-w-2xl"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-pr..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                        <div
+                                          className="space-y-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="group relative bg-card border border-border rounded-3xl overflo..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="grid lg:grid-cols-2"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative h-64 lg:h-auto overflow-hidden"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <img>
+                                                <div
+                                                  className="absolute inset-0 bg-gradient-to-r from-background/80 via-..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="p-8 lg:p-12 flex flex-col justify-center"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 mb-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <h3>
+                                                <p>
+                                                <div
+                                                  className="flex items-end gap-8 mb-8"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="text-4xl lg:text-5xl font-semibold text-primary"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     287%
+                                                    <div
+                                                      className="text-sm text-foreground/60 mt-1"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Revenue Growth
+                                                <div
+                                                  className="flex flex-wrap gap-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                          <div
+                                            className="group relative bg-card border border-border rounded-3xl overflo..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="grid lg:grid-cols-2"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative h-64 lg:h-auto overflow-hidden"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <img>
+                                                <div
+                                                  className="absolute inset-0 bg-gradient-to-r from-background/80 via-..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="p-8 lg:p-12 flex flex-col justify-center"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 mb-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <h3>
+                                                <p>
+                                                <div
+                                                  className="flex items-end gap-8 mb-8"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="text-4xl lg:text-5xl font-semibold text-primary"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     410%
+                                                    <div
+                                                      className="text-sm text-foreground/60 mt-1"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Market Share
+                                                <div
+                                                  className="flex flex-wrap gap-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                          <div
+                                            className="group relative bg-card border border-border rounded-3xl overflo..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="grid lg:grid-cols-2"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative h-64 lg:h-auto overflow-hidden"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <img>
+                                                <div
+                                                  className="absolute inset-0 bg-gradient-to-r from-background/80 via-..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="p-8 lg:p-12 flex flex-col justify-center"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 mb-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <h3>
+                                                <p>
+                                                <div
+                                                  className="flex items-end gap-8 mb-8"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="text-4xl lg:text-5xl font-semibold text-primary"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     3.2M
+                                                    <div
+                                                      className="text-sm text-foreground/60 mt-1"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Users Onboarded
+                                                <div
+                                                  className="flex flex-wrap gap-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                        <div
+                                          className="mt-12 text-center"
+-                                         bis_skin_checked="1"
+                                        >
+                                  <Testimonials>
+                                    <section className="py-24 px-6...">
+                                      <div
+                                        className="max-w-7xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="mb-16 md:mb-20"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="bg-background border border-border rounded-lg p-8 md:p-10 hover..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <p>
+                                            <div
+                                              className="border-t border-border pt-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="bg-background border border-border rounded-lg p-8 md:p-10 hover..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <p>
+                                            <div
+                                              className="border-t border-border pt-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="bg-background border border-border rounded-lg p-8 md:p-10 hover..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <p>
+                                            <div
+                                              className="border-t border-border pt-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                  <InsightsPreview>
+                                    <section className="py-24 px-6...">
+                                      <div
+                                        className="max-w-7xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 m..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                          ...
+                                        <div
+                                          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <LinkComponent href="#" className="group flex...">
+                                            <a className="group flex..." ref={function} onClick={function onClick} ...>
+                                              <div
+                                                className="flex-grow border-t border-border pt-6 pb-8 hover:border-pri..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 mb-4"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center gap-2 text-primary font-medium mt-6 opaci..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <LinkComponent href="#" className="group flex...">
+                                            <a className="group flex..." ref={function} onClick={function onClick} ...>
+                                              <div
+                                                className="flex-grow border-t border-border pt-6 pb-8 hover:border-pri..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 mb-4"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center gap-2 text-primary font-medium mt-6 opaci..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <LinkComponent href="#" className="group flex...">
+                                            <a className="group flex..." ref={function} onClick={function onClick} ...>
+                                              <div
+                                                className="flex-grow border-t border-border pt-6 pb-8 hover:border-pri..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 mb-4"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center gap-2 text-primary font-medium mt-6 opaci..."
+-                                               bis_skin_checked="1"
+                                              >
+                                  <Features>
+                                    <section className="py-32 px-6...">
+                                      <div
+                                        className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl"
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-500/20 rounded-ful..."
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="max-w-7xl mx-auto relative"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="text-center max-w-3xl mx-auto mb-20"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-back..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          ...
+                                        <div
+                                          className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                          <div
+                                            className="group p-8 rounded-3xl bg-background/5 border border-background/..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                  <CTA>
+                                    <section className="py-32 px-6...">
+                                      <div
+                                        className="max-w-5xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="relative rounded-[2.5rem] bg-gradient-to-br from-primary via-emer..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full blu..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative text-center"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <h2>
+                                            <p>
+                                            <div
+                                              className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex flex-col sm:flex-row items-center justify-center gap-6 t..."
+-                                             bis_skin_checked="1"
+                                            >
+                                  <Footer>
+                                    <footer className="bg-foregro...">
+                                      <div
+                                        className="max-w-7xl mx-auto px-6 lg:px-8"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="py-20 grid md:grid-cols-4 gap-12 lg:gap-16"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="md:col-span-2"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                            <h4>
+                                            <div
+                                              className="flex gap-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                        <div
+                                          className="py-8 border-t border-background/10 flex flex-col md:flex-row just..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <p>
+                                          <div
+                                            className="flex gap-6 text-sm"
+-                                           bis_skin_checked="1"
+                                          >
+                            ...
+                  ...
+
+[00:38:53.200] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:38:53.200] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:38:53.200] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765050932965}
