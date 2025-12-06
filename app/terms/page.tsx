@@ -1,5 +1,19 @@
+import type { Metadata } from "next"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "Terms of Service",
+  description:
+    "TheVadius Terms of Service. Read our terms and conditions for using our website and services. Agreement to terms, services, and contact information.",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/terms",
+  },
+}
 
 export default function TermsPage() {
   return (

@@ -1,5 +1,19 @@
+import type { Metadata } from "next"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "TheVadius Privacy Policy. Learn how we collect, use, and protect your personal information when you use our services or website.",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/privacy",
+  },
+}
 
 export default function PrivacyPage() {
   return (

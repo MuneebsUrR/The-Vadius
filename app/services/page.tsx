@@ -1,8 +1,34 @@
+import type { Metadata } from "next"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import { Palette, Code, TrendingUp, Users, ArrowRight, CheckCircle2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "Our Services - Brand Strategy, SaaS Development & Growth Marketing",
+  description:
+    "Comprehensive services for ambitious brands: Brand Strategy & Identity, Custom SaaS Development, Growth & Marketing, and Brand Management. End-to-end solutions from strategy to execution.",
+  keywords: [
+    "brand strategy services",
+    "SaaS development services",
+    "custom software development",
+    "brand identity design",
+    "growth marketing",
+    "digital marketing services",
+    "brand management services",
+  ],
+  openGraph: {
+    title: "TheVadius Services - End-to-End Solutions for Ambitious Brands",
+    description:
+      "From brand strategy to SaaS development and growth marketing, we provide comprehensive services that help businesses build powerful brands and innovative digital solutions.",
+    url: "/services",
+    type: "website",
+  },
+  alternates: {
+    canonical: "/services",
+  },
+}
 
 const services = [
   {

@@ -1,8 +1,32 @@
+import type { Metadata } from "next"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import { Target, Heart, Lightbulb, Users } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+
+export const metadata: Metadata = {
+  title: "About Us - Building Brands That Matter",
+  description:
+    "Learn about TheVadius - a brand management and SaaS development company dedicated to helping businesses stand out, scale up, and succeed. 150+ brands transformed, 12+ years of experience.",
+  keywords: [
+    "about TheVadius",
+    "brand management company",
+    "SaaS development team",
+    "digital agency",
+    "brand strategy experts",
+  ],
+  openGraph: {
+    title: "About TheVadius - Building Brands That Matter",
+    description:
+      "TheVadius is a brand management and SaaS development company dedicated to helping businesses stand out, scale up, and succeed in the digital age.",
+    url: "/about",
+    type: "website",
+  },
+  alternates: {
+    canonical: "/about",
+  },
+}
 
 const values = [
   {
